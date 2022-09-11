@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+.intro-div {
+    background-color: #212529;
+    color: white;
+    min-height: calc(100vh - 62px);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.hello-div {
+    background-color: #2BA46E;
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.1rem;
+    border-radius: 3rem 3rem 0.5rem;
+    max-width: 9rem;
+}
+
+.name {
+    margin-top: 1rem;
+    letter-spacing: 0.125rem;
+}
+
+.profile-pic {
+    margin-top: 7rem;
+}
+
+.info-div {
+    margin-top: 7rem;
+}
+
+.disflex {
+    display: flex;
+}
+
+.first-div {
+    justify-content: space-evenly;
+}
+
+.skill-head {
+    margin-top: 2rem;
+}
+
+.logo {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 0.5rem;
+}
+
+.contact-head {
+    margin-top: 2rem;
+}
+
+.contact {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-text {
+    font-size: 1.2rem;
+}
+
+.contact-logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .first-div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
