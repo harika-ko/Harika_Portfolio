@@ -1,11 +1,12 @@
 import "../Css/Introduction.css"
+import mypic from "../Assets/harika.png";
 
 const Intro = () => {
     return (
         <div className="intro-div">
             <div className=" disflex first-div">
                 <div className="profile-pic">
-                    <img src="https://us.123rf.com/450wm/pxlprostudio/pxlprostudio1901/pxlprostudio190106201/116646328-profile-icon-on-black-background-for-graphic-and-web-design-modern-simple-vector-sign-internet-conce.jpg?ver=6" />
+                    <img className="profile-image" src={mypic} alt="profile picture" />
                 </div>
                 <div className="info-div">
                     <div className="hello-div">

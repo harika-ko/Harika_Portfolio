@@ -23,6 +23,12 @@
 
 .profile-pic {
     margin-top: 7rem;
+
+}
+
+.profile-image {
+    height: 30rem;
+    border: 3px solid white;
 }
 
 .info-div {
