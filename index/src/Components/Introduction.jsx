@@ -1,5 +1,6 @@
 import "../Css/Introduction.css"
 import mypic from "../Assets/harika.png";
+import { GeoAlt } from "react-bootstrap-icons";
 
 const Intro = () => {
     return (
@@ -7,6 +8,10 @@ const Intro = () => {
             <div className=" disflex first-div">
                 <div className="profile-pic">
                     <img className="profile-image" src={mypic} alt="profile picture" />
+                    <div className="disflex location">
+                        <GeoAlt className="geoalt" />
+                        <h4 className="germany">Germany</h4>
+                    </div>
                 </div>
                 <div className="info-div">
                     <div className="hello-div">
