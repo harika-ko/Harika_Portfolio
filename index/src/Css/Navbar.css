@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 .navbar-brand {
-    font-size: 1.5rem;
-    margin-left: 2rem;
+    font-size: 2.3rem;
+    font-family: 'Ms Madi', cursive;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -10,6 +12,8 @@
     padding-right: 1.3rem;
 }
 
-.last-nav-item {
-    padding-right: 6rem;
+.my_pic {
+    height: 2.8rem;
+    width: 4rem;
+    border-radius: 50%;
 }

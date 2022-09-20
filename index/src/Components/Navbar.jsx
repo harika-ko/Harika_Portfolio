@@ -1,10 +1,12 @@
 import "../Css/Navbar.css"
+import mypic from "../Assets/harika.png";
 
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Harika Kommuri</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img src={mypic} alt="my pic" className="my_pic" />
+                <a class="navbar-brand" href="#">hk</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

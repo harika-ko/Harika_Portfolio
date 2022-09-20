@@ -1,0 +1,51 @@
+.aboutme-div {
+    background-image: url("https://www.reliablesoft.net/wp-content/uploads/2019/04/learn-digital-marketing-free.png");
+    height: 36rem;
+    width: 50rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 55%;
+}
+
+.aboutme-text {
+    margin-top: 5rem;
+}
+
+.about-me {
+    text-align: center;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1.7rem;
+}
+
+.about-para {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.suggestion {
+    text-align: center;
+}
+
+.hire-button-div {
+    margin-top: 2rem;
+}
+
+.hire-button {
+    background-color: #10bbef;
+    border: none;
+    padding: 0.4rem 0.9rem;
+    position: relative;
+    left: 45%;
+    color: black;
+}
+
+.hire-button:hover {
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 3px #02242e;
+}
+
+.disflex {
+    display: flex;
+}

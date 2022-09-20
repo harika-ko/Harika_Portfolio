@@ -1,0 +1,28 @@
+.tech-div {
+    padding-left: 5rem;
+}
+
+.content-div {
+    margin-top: 2rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.html-div {
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    height: 3rem;
+    width: 3rem;
+    color: #989dbb;
+}
+
+.tech {
+    color: #989dbb;
+}
+
+.disflex {
+    display: flex;
+}

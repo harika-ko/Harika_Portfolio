@@ -1,14 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
 
 .intro-div {
-    background-color: #212529;
-    color: white;
-    min-height: calc(100vh - 62px);
+    color: black;
+    min-height: calc(100vh - 81px);
     font-family: 'League Spartan', sans-serif;
+    background-image: url('https://wallpaper.dog/large/11032627.png');
+}
+
+.intro {
+    margin-top: 8rem;
+}
+
+.frontdev {
+    position: relative;
+}
+
+.frontdev span {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    animation: flip 3s infinite;
+}
+
+@keyframes flip {
+
+    0%,
+    60% {
+        transform: rotateY(360deg)
+    }
 }
 
 .hello-div {
-    background-color: #2BA46E;
+    background-color: #7bd5f1;
     padding-left: 2rem;
     padding-top: 0.8rem;
     padding-bottom: 0.1rem;
@@ -21,6 +44,26 @@
     letter-spacing: 0.125rem;
 }
 
+.email {
+    padding: 0.5rem 0.5rem;
+}
+
+.submit-email {
+    padding: 0.5rem 0.5rem;
+    margin-left: 1rem;
+    background-color: #10bbef;
+    border: none;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+}
+
+.form {
+    margin-top: 3rem;
+}
+
+/*
 .profile-pic {
     margin-top: 7rem;
 
@@ -91,4 +134,4 @@
         flex-direction: column;
         align-items: center;
     }
-}
+} */
