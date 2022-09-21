@@ -1,0 +1,33 @@
+.projects-div {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.project-info {
+    justify-content: space-between;
+}
+
+.project_name {
+    padding-top: 2rem;
+}
+
+.project_time {
+    padding-top: 2rem;
+    color: #656b8e;
+}
+
+.foodmood {
+    max-height: 95vh;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 2s ease;
+    cursor: pointer;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.foodmood:hover {
+    transform: scale(1.1);
+}

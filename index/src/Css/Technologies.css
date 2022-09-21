@@ -1,5 +1,6 @@
 .tech-div {
     padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .content-div {
@@ -21,6 +22,7 @@
 
 .tech {
     color: #989dbb;
+    font-size: 1.8rem;
 }
 
 .disflex {
