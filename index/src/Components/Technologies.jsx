@@ -7,10 +7,10 @@ const Technologies = () => {
 
     return (
         <div className="tech-div">
-            <Container fluid>
+            <Container fluid id="skills">
                 <Row>
                     <Col>
-                        <h1>Technologies</h1>
+                        <h2 className="technologies">Technologies</h2>
                         <div className="disflex content-div">
                             <div className="html-div disflex">
                                 <FontAwesomeIcon icon={faHtml5} className="icon" />

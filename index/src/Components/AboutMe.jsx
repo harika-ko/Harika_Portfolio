@@ -3,7 +3,7 @@ import "../Css/AboutMe.css";
 
 const AboutMe = () => {
     return (
-        <div className="disflex">
+        <div className="disflex" id="about">
             <div className="aboutme-div">
                 {/* Background Image is displayed here */}
             </div>
@@ -18,7 +18,7 @@ const AboutMe = () => {
                             </p>
                             <h6 className="suggestion">You are welcome to get in touch for any suggestions or collaborations.</h6>
                             <div className="hire-button-div">
-                                <a href="www.linkedin.com/in/harika-ko" className="hire-button">Hire Me</a>
+                                <a href="https://www.linkedin.com/in/harika-ko/" className="hire-button">Hire Me</a>
                             </div>
                         </Col>
                     </Row>

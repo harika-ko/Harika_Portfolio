@@ -7,45 +7,49 @@ import Spotify from "../Assets/Spotify_pic.png";
 const Projects = () => {
     return (
         <>
-            <div className="projects-div">
+            <div id="projects">
                 <Container fluid>
+                    <h2 className="latest-projects">Latest Projects</h2>
                     <Row>
-                        <Col>
-                            <h1>Latest Projects</h1>
-                            <div className="disflex project-info">
-                                <div className="project_name">
-                                    <h4>FoodMood</h4>
+                        <Col className="projects-div">
+                            <div className="pro">
+                                <div className="disflex project-info">
+                                    <div className="project_name">
+                                        <h4 className="pro-data">FoodMood</h4>
+                                    </div>
+                                    <div className="project_time">
+                                        <h4 className="pro-data">September, 2022</h4>
+                                    </div>
                                 </div>
-                                <div className="project_time">
-                                    <h4>September, 2022</h4>
+                                <div className="img-wrapper">
+                                    <a href="https://github.com/harika-ko/Capstone_Project" target="_blank">
+                                        <Image src={foodmood} alt="FoodMood Image" className="foodmood" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="img-wrapper">
-                                <a href="https://github.com/harika-ko/Capstone_Project" target="_blank">
-                                    <Image src={foodmood} alt="FoodMood Image" className="foodmood" />
-                                </a>
+
+                            <div className="pro">
+                                <div className="disflex project-info ">
+                                    <div className="project_name">
+                                        <h4 className="pro-data">LinkedIn Clone</h4>
+                                    </div>
+                                    <div className="project_time">
+                                        <h4 className="pro-data">July, 2022</h4>
+                                    </div>
+                                </div>
+                                <div className="img-wrapper">
+                                    <a href="https://github.com/harika-ko/LinkedIn" target="_blank">
+                                        <Image src={Linkedin} alt="Linkedin Image" className="foodmood" />
+                                    </a>
+                                </div>
                             </div>
 
                             <div className="disflex project-info">
                                 <div className="project_name">
-                                    <h4>LinkedIn Clone</h4>
+                                    <h4 className="pro-data">Spotify Clone</h4>
                                 </div>
                                 <div className="project_time">
-                                    <h4>July, 2022</h4>
-                                </div>
-                            </div>
-                            <div className="img-wrapper">
-                                <a href="https://github.com/harika-ko/LinkedIn" target="_blank">
-                                    <Image src={Linkedin} alt="Linkedin Image" className="foodmood" />
-                                </a>
-                            </div>
-
-                            <div className="disflex project-info">
-                                <div className="project_name">
-                                    <h4>Spotify Clone</h4>
-                                </div>
-                                <div className="project_time">
-                                    <h4>June, 2022</h4>
+                                    <h4 className="pro-data">June, 2022</h4>
                                 </div>
                             </div>
                             <div className="img-wrapper">

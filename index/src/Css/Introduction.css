@@ -44,7 +44,7 @@
     letter-spacing: 0.125rem;
 }
 
-.email {
+.form-email {
     padding: 0.5rem 0.5rem;
 }
 
@@ -62,76 +62,3 @@
 .form {
     margin-top: 3rem;
 }
-
-/*
-.profile-pic {
-    margin-top: 7rem;
-
-}
-
-.profile-image {
-    height: 30rem;
-    border: 3px solid white;
-}
-
-.location {
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 0.3rem;
-}
-
-.geoalt {
-    height: 2rem;
-    width: 1.5rem;
-}
-
-.germany {
-    font-size: 1.8rem;
-}
-
-.info-div {
-    margin-top: 7rem;
-}
-
-.disflex {
-    display: flex;
-}
-
-.first-div {
-    justify-content: space-evenly;
-}
-
-.skill-head {
-    margin-top: 2rem;
-}
-
-.logo {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin-left: 0.5rem;
-}
-
-.contact-head {
-    margin-top: 2rem;
-}
-
-.contact {
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.contact-text {
-    font-size: 1.2rem;
-}
-
-.contact-logo {
-    height: 2rem;
-    width: 2rem;
-}
-
-@media only screen and (max-width: 1000px) {
-    .first-div {
-        flex-direction: column;
-        align-items: center;
-    }
-} */

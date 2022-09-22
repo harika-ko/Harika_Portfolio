@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
 .tech-div {
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 3rem;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .content-div {
-    margin-top: 2rem;
+    margin-top: 4rem;
     justify-content: space-around;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .html-div {
@@ -27,4 +31,27 @@
 
 .disflex {
     display: flex;
+}
+
+@media only screen and (max-width: 1150px) {
+    .html-div {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tech {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .content-div {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .technologies {
+        text-align: center;
+    }
 }

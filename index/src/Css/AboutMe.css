@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
 .aboutme-div {
     background-image: url("https://www.reliablesoft.net/wp-content/uploads/2019/04/learn-digital-marketing-free.png");
     height: 36rem;
@@ -6,6 +8,7 @@
     background-position: center center;
     background-size: cover;
     min-width: 55%;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .aboutme-text {
@@ -48,4 +51,14 @@
 
 .disflex {
     display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .aboutme-div {
+        display: none;
+    }
 }

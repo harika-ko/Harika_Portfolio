@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+.main-footer-div {
+    background-color: rgb(15, 18, 33);
+    color: white;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.first-div {
+    padding: 3rem;
+}
+
+.second-div {
+    padding: 3rem;
+    max-width: 24rem;
+}
+
+.me {
+    height: 3.5rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.myname {
+    margin-bottom: 0rem;
+}
+
+.frontend-dev {
+    color: #9ea0a8;
+    margin-bottom: 2rem;
+}
+
+.email-text {
+    color: #9ea0a8;
+    margin-bottom: 0rem;
+}
+
+.email {
+    padding: 0rem;
+}
+
+.footer-text {
+    margin-top: 2rem;
+}
+
+.icons-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-icon {
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    margin-top: 1.2rem;
+}
+
+@media only screen and (max-width: 590px) {
+    .main-footer-div {
+        flex-direction: column;
+        align-items: center;
+    }
+}

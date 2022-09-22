@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
+.navbar {
+    line-height: 0rem;
+}
+
 .navbar-brand {
+    padding: 0.8rem;
     font-size: 2.3rem;
     font-family: 'Ms Madi', cursive;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(91, 90, 90);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -13,7 +27,14 @@
 }
 
 .my_pic {
-    height: 2.8rem;
-    width: 4rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-brand {
+        display: none;
+    }
 }

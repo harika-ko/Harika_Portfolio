@@ -1,10 +1,11 @@
 import "../Css/Navbar.css"
-import mypic from "../Assets/harika.png";
+import mypic from "../Assets/photo.jpg";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <img src={mypic} alt="my pic" className="my_pic" />
                 <a class="navbar-brand" href="#">hk</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,19 +18,17 @@ const Navbar = () => {
                     <form class="form-inline my-2 my-lg-0">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <Link class="nav-link" to="about" smooth={true}>About</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                                <Link class="nav-link" to="skills" smooth={true}
+                                >Skills</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Experiences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <Link class="nav-link" to="projects" smooth={true}>Projects</Link>
                             </li>
                             <li class="nav-item last-nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <Link class="nav-link" to="contact" smooth={true}>Contact</Link>
                             </li>
                         </ul>
                     </form>

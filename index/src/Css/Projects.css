@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+
+#projects {
+    font-family: 'League Spartan', sans-serif;
+}
+
 .projects-div {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.latest-projects {
+    padding-left: 5.3rem;
+    padding-bottom: 1rem;
 }
 
 .project-info {
@@ -30,4 +42,21 @@
 
 .foodmood:hover {
     transform: scale(1.1);
+}
+
+.pro {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .projects-div {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .pro-data {
+        font-size: 1rem;
+    }
 }
