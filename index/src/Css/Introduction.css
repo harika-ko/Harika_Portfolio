@@ -2,13 +2,14 @@
 
 .intro-div {
     color: black;
-    min-height: calc(100vh - 81px);
+    /*  min-height: calc(100vh - 56px); */
     font-family: 'League Spartan', sans-serif;
     background-image: url('https://wallpaper.dog/large/11032627.png');
+    height: 100vh;
 }
 
 .intro {
-    margin-top: 8rem;
+    margin-top: 15rem;
 }
 
 .frontdev {
@@ -53,6 +54,10 @@
     margin-left: 1rem;
     background-color: #10bbef;
     border: none;
+}
+
+.submit-email:hover {
+    box-shadow: 3px 3px 3px #02242e;
 }
 
 .intro-text {
