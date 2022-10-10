@@ -19,14 +19,15 @@
 }
 
 .icon {
-    height: 3rem;
-    width: 3rem;
+    height: 2.8rem;
+    width: 2.8rem;
     color: #989dbb;
 }
 
 .tech {
     color: #989dbb;
     font-size: 1.8rem;
+    padding-top: 0.8rem;
 }
 
 .disflex {
