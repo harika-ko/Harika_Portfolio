@@ -12,8 +12,9 @@ const AboutMe = () => {
                     <Row>
                         <Col className="aboutme-text">
                             <h1 className="about-me">About Me</h1>
-                            <p className="about-para">I am a Computer Science Graduate with 3 years of experience in IT field. Currently, I am a certified Frontend
-                                developer from Epicode. I like to craft solid and scalable frontend products with great user experience.
+                            <p className="about-para">I am a Computer Science Graduate with 3 years of experience in IT field.
+                                I recently completed an internship on Frontend development using latest technologies.
+                                I like to craft solid and scalable frontend products with great user experience.
                                 Interested in the entire frontend spectrum along with constantly updating myself with latest technologies.
                             </p>
                             <h6 className="suggestion">You are welcome to get in touch for any suggestions or collaborations.</h6>
